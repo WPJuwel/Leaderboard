@@ -17,6 +17,8 @@ main {
     width: 870px;
     background: #FFFFFF;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 .section-title {
@@ -84,4 +86,45 @@ Top Blogs Styles
 .author a{
     text-decoration: none;
     color: #562EFF;
+}
+
+/* ---------------------
+   Lates Coures Styles
+------------------------*/
+.courses{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.course {
+    box-shadow: 5px 5px 10px 3px #f8f1f1;
+    padding: 10px;
+    border-radius: 20px;
+}
+.course-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-baner img{
+    width: 224px;
+    height: 104px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.unfilled{
+    color: #AEAEAE;
+}
+.course-duro {
+    background-color: #FFE4E8;
+    border-radius: 20px;
+    padding: 3px 8px;
+    color:#FF4A60;
+}
+.fa-clock{
+    color:#FF4A60;
 }
